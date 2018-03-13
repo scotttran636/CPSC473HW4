@@ -22,5 +22,7 @@
     myTruck.createOrder.call(data);
     checkList.addRow.call(data);
   });
+  
   formHandler.addInputHandler(Validation.isCompanyEmail);
+  
 })(window);
